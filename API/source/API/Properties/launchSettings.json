@@ -4,8 +4,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:50549",
-      "sslPort": 44301
+      "applicationUrl": "http://localhost:50110",
+      "sslPort": 44386
     }
   },
   "profiles": {
@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "VRIS.API": {
+    "API": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "example",
