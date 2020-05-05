@@ -1,0 +1,27 @@
+{
+  "name": "vris",
+  "version": "0.1.0",
+  "description": "A calendar application for Azure AD",
+  "main": "index.js",  
+  "private": true,
+  "scripts": {
+    "build": "npx webpack --mode=production --config webpack.config.js",
+    "dev": "npx webpack-dev-server --mode development --devtool inline-source-map --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Physer/VRIS3.git"
+  },
+  "author": "Alex Schouls",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Physer/VRIS3/issues"
+  },
+  "homepage": "https://github.com/Physer/VRIS3#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
